@@ -1,0 +1,117 @@
+:root{
+    --main-color: #071E2E;
+    --secondary-color:#03AFED;
+
+
+}
+body{
+    background-color: var(--main-color);
+    color:white;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    color: white;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+  
+}
+.main{
+    display: flex;
+ margin: 64px;
+
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+
+}
+
+ .nav-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+}
+
+.text-side{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+ 
+.title{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 84px;
+}
+
+.subtitle{
+   
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn-container{
+   margin-top: 64px;
+   display: flex;
+   gap: 15px;
+}
+.light-btn{
+    font-size: 18px;
+    background-color: var(--secondary-color);
+
+    
+}
+
+.dark-btn{
+    font-size: 18px;
+    background-color: var(--main-color);
+    border: 1px solid  ;
+    color: #03AFED;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+footer .icons{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.page-container{
+    padding: 0 142px;
+}
+
+@media (max-width: 768px) {
+    .main{
+        flex-direction: column;
+    }
+     .page-container{
+        padding: 0 2%;
+    }
+}
+ 
