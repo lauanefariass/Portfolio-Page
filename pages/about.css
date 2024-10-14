@@ -1,0 +1,132 @@
+:root {
+    --main-color: #071e2e;
+    --secondary-color: #03afed;
+  }
+  body {
+    background-color: var(--main-color);
+    color: white;
+    font-family: "Poppins", sans-serif;
+   
+  }
+  header {
+    color: white;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  :root {
+    --main-color: #071e2e;
+    --secondary-color: #03adea;
+  }
+  
+  .img-container {
+    width: max-content;
+    height: 450px;
+    border-radius: 75%;
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+   background-color: white;
+  }
+  
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  .about-title {
+    font-size: 48px;
+  }
+  .experience-item {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .experience-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .experience-icon {
+    width: max-content;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+  }
+  .line {
+    width: 3px;
+    height: 100%;
+    background-color: var(--secondary-color);
+  }
+  .experience-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .experience-item-text {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+  .experience-page-title {
+    font-size: 48px;
+    font-weight: 600;
+    padding: 20px 0;
+  
+    text-align: center;
+  }
+  .footer {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .list-style {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  footer .icons {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  @media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+    }
+    .page-container {
+      padding: 0 2%;
+    }
+  }
