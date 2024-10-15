@@ -21,6 +21,7 @@ header {
   display: flex;
   gap: 20px;
 }
+
 a:hover{
   cursor: pointer;
   border-bottom:3px solid #03AFED;
