@@ -1,6 +1,6 @@
 :root {
-  --main-color: #071e2e;
-  --secondary-color: #03afed;
+  --main-color: black;
+  --secondary-color: #f7f7f7;
 }
 
 body {
@@ -22,11 +22,10 @@ header {
   gap: 20px;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
-  border-bottom:3px solid #03AFED;
-  color:var(--secondary-color);
-
+  border-bottom: 3px solid #f7f7f7;
+  color: var(--secondary-color);
 }
 
 a {
@@ -42,7 +41,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-.page-container{
+.page-container {
   padding: 0 142px;
 }
 
