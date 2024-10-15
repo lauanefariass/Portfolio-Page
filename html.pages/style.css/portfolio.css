@@ -21,6 +21,12 @@ header {
   display: flex;
   gap: 20px;
 }
+a:hover{
+  cursor: pointer;
+  border-bottom:3px solid #03AFED;
+  color:var(--secondary-color);
+
+}
 
 a {
   text-decoration: none;
@@ -34,6 +40,9 @@ a {
   gap: 15px;
   align-items: center;
   justify-content: center;
+}
+.page-container{
+  padding: 0 142px;
 }
 
 .work-item {

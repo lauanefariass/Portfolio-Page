@@ -17,7 +17,7 @@ header{
   
 }
 .main{
-    display: flex;
+ display: flex;
  margin: 64px;
 
 }
@@ -25,6 +25,12 @@ header{
 .logo{
     color: white;
     font-size: 20px;
+
+}
+a:hover{
+    cursor: pointer;
+    border-bottom:3px solid #03AFED;
+    color:var(--secondary-color);
 
 }
 
@@ -38,7 +44,7 @@ header{
 a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
   
 }
 
@@ -73,16 +79,33 @@ a{
    display: flex;
    gap: 15px;
 }
+.light-btn:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: var(--main-color);
+    color:var(--secondary-color);
+}
+
 .light-btn{
     font-size: 18px;
     background-color: var(--secondary-color);
+    padding: 4px;
+    border: 1px solid  ;
+    color: var(--main-color)
 
     
+}
+.dark-btn:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
 }
 
 .dark-btn{
     font-size: 18px;
     background-color: var(--main-color);
+    padding: 4px;
     border: 1px solid  ;
     color: #03AFED;
 }

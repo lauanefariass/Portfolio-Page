@@ -3,6 +3,10 @@
     --secondary-color: #03afed;
   }
   
+  .page-container{
+    padding: 0 142px;
+  }
+
   body {
     background-color: var(--main-color);
     color: white;
@@ -25,6 +29,12 @@
     display: flex;
     gap: 20px;
   }
+  a:hover{
+    cursor: pointer;
+    border-bottom:3px solid #03AFED;
+    color:var(--secondary-color);
+
+}
   
   a {
     text-decoration: none;

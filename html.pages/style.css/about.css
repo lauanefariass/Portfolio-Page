@@ -19,6 +19,12 @@
     display: flex;
     gap: 20px;
   }
+  a:hover{
+    cursor: pointer;
+    border-bottom:3px solid #03AFED;
+    color:var(--secondary-color);
+
+}
   a {
     text-decoration: none;
     color: white;
@@ -53,6 +59,12 @@
   
   .about-title {
     font-size: 48px;
+  }
+
+  .experience-item:hover{
+background-color: rgba(14, 14, 206, 0.747);
+cursor: pointer;
+transition: all 0.7s;
   }
   .experience-item {
     display: flex;
@@ -115,6 +127,9 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
+  }
+  .page-container{
+    padding: 0 142px;
   }
   
   footer .icons {
