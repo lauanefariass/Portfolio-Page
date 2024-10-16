@@ -97,6 +97,20 @@ a {
   border: 1px solid;
   color: #f7f7f7;
 }
+.title{
+  animation: move 2s ease-in infinite;
+}
+@keyframes move {
+  0%{
+    transform: translateY(-100px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-100px);
+  }
+}
 footer {
   display: flex;
   justify-content: center;
