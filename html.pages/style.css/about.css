@@ -115,13 +115,13 @@ a {
 }
 .about-text {
   opacity: 0;
-  animation: fadeIn 3s ease-in-out forwards;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(20px); /* Optional: slight slide effect */
+    transform: translateY(20px);
   }
   100% {
     opacity: 1;
