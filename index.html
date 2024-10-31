@@ -1,82 +1,211 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>.Lauane</title>
-    <link rel="stylesheet" href="./html.pages/style.css/home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <title>.Lauane</title>
 </head>
 
 <body>
-    <div class="page-container">
-        <header>
-            <h1 class="logo">.Lauane.</h1>
-            <ul class="nav-list">
+    <header class="header">
+        <a href="#home" class="logo">Lauane
+            <span>Farias</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="mailto:lauanefarias.dev@gmail.com" class="gradient-bt">Contact Me</a>
 
-                </li>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./html.pages/about.html">About</a></li>
-                <li><a href="./html.pages/portfolio.html">Portfolio</a></li>
-                <li><a href="./html.pages/contact.html">Contact</a></li>
-                <li>
 
-                    <div class="mode">
-                        <input type="checkbox" id="mode" />
-                        <label for="mode">
-                            <img id="moon" src="./html.pages/images/moon.svg" alt="">
-                            <img id="sun" src="./html.pages/images/sun.svg" alt="">
-                        </label>
-                    </div>
-            </ul>
-        </header>
-        <main class="main">
-            <div class="text-side">
-                <p class="title">
-                    <span>H</span><span>i</span> <span>I</span><span>'</span><span>m</span>
-                    <span>L</span><span>a</span><span>u</span><span>a</span><span>n</span><span>e</span>
-                    <span>F</span><span>a</span><span>r</span><span>i</span><span>a</span><span>s</span>
-                </p>
-                <p class="subtitle">Full stack developer</p>
 
-                <p class="text">
-                    <span>Hi my name is Lauane, a web designer and developer with a passion for creating visually stunning and highly functional websites.</span>
-                    <span>I am a career transition professional with an initial interest in 3D design, but I quickly discovered a passion for programming.</span>
-                    <span>I am currently studying Full Stack Development in Dubai, gaining skills in technologies such as HTML, CSS, Javascript, MongoDB, NodeJS, and Express.</span>
-                    <span>I am developing a portfolio to better showcase my work, and I am seeking opportunities to apply my knowledge, continue growing in the development field, and contribute meaningfully to technology projects.</span>
-                    <span>Key Skills:</span>
-                    <span>HTML, CSS, Javascript</span>
-                    <span>MongoDB, NodeJS, Express</span>
-                    <span>SQL Server, MongoDB</span>
-                    <span>Version Control with Git and Github</span>
-                    <span>Commit and Naming Conventions</span>
-                    <span>DBMS: SSMS (SQL Server), Compass (MongoDB)</span>
-                </p>
-                <div class="btn-container">
-                    <button class="light-btn">Hire Me</button>
-                    <a class="dark-btn" href="mailto:lauanefarias.dev@gmail.com">Lets Talk</a>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi It's <span>Lauane</span></h1>
+            <h3>
+                I'm a <span>Web Developer</span>
+            </h3>
+            <p>
+                I am a career transition professional with an initial interest in 3D design, but I quickly discovered a passion for programming. I am currently studying Full Stack Development at teachmecode in Dubai, gaining skills in technologies such as HTML, CSS, Javascript, MongoDB, NodeJS, and Express.I am seeking opportunities to apply my knowledge, continue growing in the development field, and contribute meaningfully to technology projects.
+                Key Skills:
+                HTML, CSS, Javascript
+                MongoDB, NodeJS, Express
+                SQL Server, MongoDB
+                Version Control with Git and Github
+                Commit and Naming Conventions
+                DBMS: SSMS (SQL Server), Compass (MongoDB)
+            </p>
+            <div class="social-icons">
+                <a href="https://github.com/lauanefariass?tab=repositories">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="linkedin.com/in/lauane-farias-6b857b325">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./images/PerfilPhoto.png" alt="">
+        </div>
+    </section>
 
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/PerfilPhoto.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Hello! I’m a 22-year-old Brazilian navigating life in the vibrant city of Dubai. Currently diving into the world of programming, I’m pursuing a Full Stack Development course at Teach Me Code. My journey started with a passion for 3D design, but I soon discovered that coding is where I truly shine.
+
+                As a Libra, I often find myself weighing my options (it's in my nature!). This indecisiveness fuels my creativity, allowing me to explore various paths in tech. From HTML to JavaScript, I’m building a diverse skill set and a career that I’m excited about.
+
+                I believe that every line of code is a step toward a brighter future—one bug at a time! When I’m not coding, you can find me exploring the city's cultural gems or enjoying a good cup of coffee.
+
+                Let’s connect and see how we can collaborate!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        ">
+        <h2 class="heading">>Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI/UX Design</h4>
+                    <p>As a UI/UX designer, I focus on creating intuitive and engaging user experiences. I believe that a well-designed interface is not just about aesthetics but also about functionality. My goal is to ensure that every interaction is seamless, making users feel at home in digital spaces. By blending creativity with usability, I strive to transform ideas into visually appealing designs that resonate with users.</p>
                 </div>
             </div>
-            <div class="image-container"><img class="image-home" src="./html.pages/images/Img25736_2_-removebg-preview.png" alt=""></div>
-        </main>
-
-        <footer>
-            <h2>Find me On</h2>
-            <div class="icons">
-                <img src="./html.pages/images/fi-brands-behance.svg" alt="Behance">
-                <img src="./html.pages/images/fi-brands-dribbble.svg" alt="Dribbble">
-                <img src="./html.pages/images/fi-brands-facebook.svg" alt="Facebook">
-                <img src="./html.pages/images/fi-brands-github.svg" alt="Github">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Development</h4>
+                    <p>As a Frontend Developer, I bring designs to life by turning static mockups into interactive web applications. I specialize in HTML, CSS, and JavaScript, crafting responsive layouts that adapt to any device. My approach is to create smooth, user-friendly experiences that not only look good but also function flawlessly. I’m passionate about staying up-to-date with the latest technologies to ensure that my projects are both modern and efficient.</p>
+                </div>
             </div>
-        </footer>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Backend Development</h4>
+                    <p>In the world of Backend Development, I focus on the server-side of web applications, ensuring that everything runs smoothly behind the scenes. With expertise in Node.js and MongoDB, I build robust databases and APIs that power dynamic user experiences. I’m dedicated to optimizing performance and ensuring security, because a strong foundation is essential for any successful application. My goal is to create scalable solutions that can grow alongside user needs.</p>
+                </div>
+            </div>
+        </div>
 
-    </div>
-    </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="projects-card"> <!-- Updated to match CSS -->
+                <img src="./images/Dyson.png">
+                <h3>Test your Dyson</h3>
+                <p>Experience the future of sound and air purification with Test Your Dyson! This interactive web application allows you to explore the innovative Dyson Zone while listening to your favorite music. Simply connect your device, and immerse yourself in a unique auditory journey that showcases the exceptional features of the Dyson Zone. With an intuitive design, you can easily switch between music tracks and test the effectiveness of the air purification technology, all while enjoying a seamless user experience. Join us in redefining the way you interact with your environment—breathe better, listen better, and enjoy every moment!</p>
+                <div class="btn"><a href="https://lauanefariass.github.io/Just-Listen/">Review Project</a></div>
+            </div>
+
+            <div class="projects-card"> <!-- Updated to match CSS -->
+                <img src="./images/Wethear.png" alt="">
+                <h3>Weather App</h3>
+                <p>Welcome to our Weather App, where simplicity meets functionality! Designed with a clean and user-friendly interface, this application allows you to effortlessly check the weather in your location and around the globe. With robust JavaScript functionality, our app provides real-time updates, forecasts, and detailed weather information at your fingertips. Whether you're planning your day or just curious about the weather in a distant city, our Weather App is here to provide you with accurate data and a seamless experience. Dive in and stay informed, no matter the weather!</p>
+                <div class="btn"><a href="https://lauanefariass.github.io/weather-app/">Review Project</a></div>
+            </div>
+
+            <div class="projects-card"> <!-- Updated to match CSS -->
+                <img src="./images/ShoppingList.png" alt="">
+                <h3>List It Up</h3>
+                <p>Welcome to List It Up—the Web Site that ensures you never forget a thing! With our easy-to-use shopping list, you'll be able to add items faster than you can say "where did I put my keys?" Say goodbye to those last-minute trips back to the store because you forgot the milk! Our app allows you to organize your shopping needs with a fun twist. Whether you're a “grocery guru” or just “winging it,” our shopping list will help you tackle your to-buy items like a pro. So, let’s get shopping and keep it “a-list”!</p>
+                <div class="btn"><a href="https://lauanefariass.github.io/Shopping-list/">Review Project</a></div>
+            </div>
+
+            <div class="projects-card"> <!-- Updated to match CSS -->
+                <img src="./images/TodoList.png" alt="">
+                <h3>To-Do List</h3>
+                <p>Welcome to Done and Dusted—the Web Site that turns your tasks into triumphs! With our intuitive to-do list, crossing off chores has never been more satisfying. Whether you're tackling a mountain of tasks or just trying to remember where you put your coffee, we've got your back! Our app helps you stay organized, so you can focus on what really matters—getting things done. So, let’s make that “to-do” list a “ta-da” list and turn your goals into accomplishments, one tick at a time!</p>
+                <div class="btn"><a href="https://lauanefariass.github.io/TMC-to-do-list/">Review Project</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="Email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" ro></textarea>
+                <input type="submit" value="Send Massage" class="btn">
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/lauanefariass?tab=repositories">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="linkedin.com/in/lauane-farias-6b857b325">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#About">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            @ Lauane Farias | All Rights Reserved
+        </p>
+
+    </footer>
+
+    <script src="index.js"></script>
 </body>
-
-
 
 </html>
