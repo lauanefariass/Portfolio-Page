@@ -182,9 +182,12 @@ section {
   box-shadow: 0 0 25px var(--main-color);
   border-radius: 3rem;
   font-size: 1.8rem;
-  color: black;
+  color: white;
   border: 2px solid transparent;
   transition: 0.3s ease-in-out;
+}
+.btn a {
+  color: white;
 }
 .btn:hover {
   transform: scale(1.05);
@@ -209,6 +212,7 @@ section {
   background: var(--bg-color);
 }
 .about-img img {
+  color: white;
   width: 32vw;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
